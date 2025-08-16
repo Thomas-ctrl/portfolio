@@ -9,7 +9,7 @@ export default function Header() {
 	const [isOpen, setIsOpen] = useState(false);
 
 	const navItems = [
-		{ label: "Home", href: "/" },
+		// { label: "Home", href: "/" },
 		{ label: "About", href: "/about" },
 		{ label: "Projects", href: "/projects" },
 		{ label: "Contact", href: "/contact" },
@@ -21,7 +21,7 @@ export default function Header() {
 
 				{/* Logo / Name */}
 				<Link href="/" className="text-xl font-bold tracking-tight text-gray-800">
-					MyPortfolio
+					Thomas van Bavel
 				</Link>
 
 				{/* Desktop Nav */}
